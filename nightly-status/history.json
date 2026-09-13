@@ -1,24 +1,143 @@
 {
-  "last_updated": "2026-09-12T18:12:03.002340+00:00",
+  "last_updated": "2026-09-13T06:20:53.837656+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
-      "runs_with_data": 4,
-      "total_workflow_runs": 42,
-      "total_success": 35,
+      "runs_with_data": 5,
+      "total_workflow_runs": 51,
+      "total_success": 44,
       "total_failure": 6,
-      "success_rate": 83.3
+      "success_rate": 86.3
     },
     "last_30_days": {
-      "days": 10,
-      "runs_with_data": 4,
-      "total_workflow_runs": 42,
-      "total_success": 35,
+      "days": 11,
+      "runs_with_data": 5,
+      "total_workflow_runs": 51,
+      "total_success": 44,
       "total_failure": 6,
-      "success_rate": 83.3
+      "success_rate": 86.3
     }
   },
   "history": [
+    {
+      "date": "2026-09-13",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597",
+      "orchestrator_run_id": 34742479597,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425751",
+          "display_name": "Linux Tests"
+        },
+        "test-linux-llm.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425720",
+          "display_name": "LLM Tests"
+        },
+        "test-linux-habitat.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425765",
+          "display_name": "Habitat Tests"
+        },
+        "test-linux-tutorials.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425729",
+          "display_name": "Tutorials Tests"
+        },
+        "test-linux-examples.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425941",
+          "display_name": "Examples Tests"
+        },
+        "test-linux-sota.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425690",
+          "display_name": "SOTA Tests"
+        },
+        "test-linux-libs.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425693",
+          "display_name": "Libs Tests"
+        },
+        "test-windows-optdepts.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425743",
+          "display_name": "Windows Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425607",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684426084",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425357",
+          "display_name": "Benchmarks"
+        },
+        "validate-test-partitioning.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425301",
+          "display_name": "Test Partitioning"
+        },
+        "nightly_build.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425835",
+          "display_name": "Nightly Build"
+        },
+        "build-wheels-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/DarkStarStrix/rl/actions/runs/34742479597/job/103684425685",
+          "display_name": "Wheels (Linux)"
+        },
+        "build-wheels-m1.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (M1)"
+        },
+        "build-wheels-windows.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (Windows)"
+        },
+        "build-wheels-aarch64-linux.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (Aarch64)"
+        }
+      },
+      "summary": {
+        "total": 17,
+        "success": 9,
+        "failure": 0,
+        "skipped": 8,
+        "other": 0,
+        "success_rate": 100.0
+      }
+    },
     {
       "date": "2026-09-12",
       "orchestrator_ran": true,
