@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-09-15T06:24:22.958043+00:00",
+  "last_updated": "2026-09-15T18:12:39.843006+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
       "runs_with_data": 7,
       "total_workflow_runs": 72,
-      "total_success": 62,
+      "total_success": 61,
       "total_failure": 9,
-      "success_rate": 86.1
+      "success_rate": 84.7
     },
     "last_30_days": {
       "days": 13,
       "runs_with_data": 7,
       "total_workflow_runs": 72,
-      "total_success": 62,
+      "total_success": 61,
       "total_failure": 9,
-      "success_rate": 86.1
+      "success_rate": 84.7
     }
   },
   "history": [
@@ -93,8 +93,8 @@
           "display_name": "Benchmarks"
         },
         "validate-test-partitioning.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/DarkStarStrix/rl/actions/runs/34936338493/job/104274979105",
           "display_name": "Test Partitioning"
         },
@@ -131,11 +131,11 @@
       },
       "summary": {
         "total": 17,
-        "success": 9,
+        "success": 8,
         "failure": 1,
         "skipped": 7,
-        "other": 0,
-        "success_rate": 90.0
+        "other": 1,
+        "success_rate": 80.0
       }
     },
     {
