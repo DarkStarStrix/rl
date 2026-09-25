@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25T06:19:59.206190+00:00",
+  "last_updated": "2026-09-25T18:13:48.318819+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-09-25",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/DarkStarStrix/rl/actions/runs/36102281017",
       "orchestrator_run_id": 36102281017,
       "workflows": {
